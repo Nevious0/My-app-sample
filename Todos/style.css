@@ -1,0 +1,55 @@
+body {
+  background-image: linear-gradient(100deg, rgb(104, 90, 230), rgb(11, 48, 58));
+  box-sizing: border-box;
+}
+.text {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.form-group {
+  display: flex;
+}
+
+.fa-check,
+.fa-trash {
+  pointer-events: none;
+}
+.fa-arrow-alt-circle-right {
+  pointer-events: none;
+}
+.todo {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  margin: 15px;
+  font-size: 16px;
+  border-radius: 3px;
+}
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+.trash-btn,
+.complete-btn {
+  border: none;
+  padding: 10px 15px;
+}
+.trash-btn {
+  color: #fff;
+  background: crimson;
+}
+.complete-btn {
+  color: #fff;
+  background: lime;
+}
+.todoLink {
+  min-width: 20%;
+  border: none;
+  list-style: none;
+  padding-left: 10px;
+}
+.todo li {
+  flex: 1;
+}
